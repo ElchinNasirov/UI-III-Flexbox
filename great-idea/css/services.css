@@ -71,27 +71,23 @@ h1, h2, h3, h4, h5 {
 } 
 
 header {
-    border: solid;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-    padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+nav {
+	display: flex;
+	margin-top: 10px;
+	margin-left: 0;
 }
 
 nav a {
-    text-decoration: none;
-    color: grey;
-    padding: 20px;  
-    margin: 10px;  
+	margin-right: 60px;
+	text-decoration: none;
+	color: grey;
+	
 }
-
-header nav .first-anchor {
-    margin-left: 0;
-  }
-  
-/* .main-content {
-    display: flex;
-} */
 
 .top-text {
     display: flex; 
